@@ -15,7 +15,7 @@ namespace KuasCore.Services.Impl
             CourseDao.AddCourse(course);
         }
 
-        public void UpdateCourse(Employee course)
+        public void UpdateCourse(Course course)
         {
             CourseDao.UpdateCourse(course);
         }
@@ -32,7 +32,7 @@ namespace KuasCore.Services.Impl
 
         public IList<Course> GetAllCourse()
         {
-            return CourseeDao.GetAllCourse();
+            return CourseDao.GetAllCourse();
         }
 
         
